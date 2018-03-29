@@ -29,11 +29,11 @@ Go to **Services** => **Certificate Manager** => **Request Certificate**
 
 In the top-right corner, make sure you are on **US East (N. Virginia)**, as the certificate must be provisioned in that region in order to be detected by CloudFront in the future steps.
 
-<img src="https://user-images.githubusercontent.com/550895/38103041-32bd1f4e-3353-11e8-8397-ac8e24a4644a.png" width=300/>
+<img src="https://user-images.githubusercontent.com/550895/38103041-32bd1f4e-3353-11e8-8397-ac8e24a4644a.png" width=400/>
 
 Add your root domain and a wildcard for any subdomain that you wish to add in the future (most common one would be `www`).
 
-<img src="https://user-images.githubusercontent.com/550895/38103053-3e47c800-3353-11e8-821f-4f56836d5fc4.png" width=300/>
+<img src="https://user-images.githubusercontent.com/550895/38103053-3e47c800-3353-11e8-821f-4f56836d5fc4.png" width=400/>
 
 Complete the DNS Validation or Email Validation, if you chose DNS Validation you can have AWS create the 53 Route records via a simple click.
 
@@ -45,11 +45,11 @@ Add your GitHub pages URL to **Origin Domain Name**.
 
 > Note: if you have many GitHub pages under the same GitHub organization, you will need to specify the specific project by including it in the **Origin Path**.
 
-<img src="https://user-images.githubusercontent.com/550895/38103082-5c100aaa-3353-11e8-88f7-dd40a5767e0f.png" width=300/>
+<img src="https://user-images.githubusercontent.com/550895/38103082-5c100aaa-3353-11e8-88f7-dd40a5767e0f.png" width=400/>
 
 Change the **Viewer Protocol Policy** to **“Redirect HTTP to HTTPS”** that way all your viewers will be redirected to only a secure HTTPS website.
 
-<img src="https://user-images.githubusercontent.com/550895/38103102-6d8154ce-3353-11e8-985f-74acc7d9ec23.png" width=400/>
+![image](https://user-images.githubusercontent.com/550895/38103102-6d8154ce-3353-11e8-985f-74acc7d9ec23.png)
 
 Include your subdomain to **“Alternate Domain Names (CNAMEs)”**. The domain name must match your SSL Certificate you created earlier.
 
