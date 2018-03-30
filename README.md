@@ -7,3 +7,8 @@ A collection of multi-lingual EOS related documentation.
 - **AWS Cloudfront with ScholarTestnet**
   - [English](aws/aws-cloudfront-with-scholar-testnet/README.md)
   - [中文](aws/aws-cloudfront-with-scholar-testnet/README-Chinese.md)
+
+## EOS
+
+- **EOS Resync Blocks**
+  - [English](eos/eos-resync-blocks/README.md)
