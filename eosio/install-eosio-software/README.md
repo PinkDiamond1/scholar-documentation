@@ -34,3 +34,5 @@ nothing to commit, working tree clean
 ```
 $ ./eosio_build.sh
 ```
+
+![image](https://user-images.githubusercontent.com/550895/38167725-4c594142-3508-11e8-94a8-0cb04d4dfe55.png)
