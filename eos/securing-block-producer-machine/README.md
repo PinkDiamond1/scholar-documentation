@@ -1,4 +1,4 @@
-# Securing your Block Producer Machine
+# Securing Block Producer Machine
 
 This document aims to provide the technical knowledge and numerous ways you can secure your Block Producer machine.
 
