@@ -11,6 +11,6 @@ A collection of multi-lingual EOS related documentation.
 ## EOS.IO
 
 - **Install EOS.IO Software**
-  - [English](eosio/install-eosio-software/README.md)
+  - [English](eos/eos-install-eosio-software/README.md)
 - **Re-sync Blocks**
-  - [English](eosio/eosio-re-sync-blocks/README.md)
+  - [English](eos/eos-re-sync-blocks/README.md)
