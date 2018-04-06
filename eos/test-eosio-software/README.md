@@ -4,9 +4,9 @@ In this document we will explain to you how to verify if your installation was s
 
 ## Table of Content
 
-- Configure MongoDB
-- Start MongoDB
-- Run Tests
+- [Configure MongoDB](#configure-mongodb)
+- [Start MongoDB](#start-mongodb)
+- [Run Tests](#run-tests)
 
 ## Configure MongoDB
 
