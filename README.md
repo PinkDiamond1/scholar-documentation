@@ -5,11 +5,15 @@ A collection of multi-lingual EOS related documentation.
 ## EOS.IO
 
 - **Install EOS.IO Software**
-  - [English](eos/install-eosio-software/README.md) (waiting for `v3.0`)
-- **Syncing Blocks**
+  - [English](eos/install-eosio-software/README.md)
+- **Test EOS.IO Software**
+  - [English](eos/test-eosio-software/README.md)
+- **Generate Block Siging Key**
+  - [English](eos/generate-block-signing-key/README.md)  
+- ~**Syncing Blocks**~
   - [English](eos/syncing-blocks/README.md)
-- **Securing Block Producer Machine**
-  - [English](eos/securing-block-producer-machine/README.md) (not completed)
+- ~**Securing Block Producer Machine**~
+  - [English](eos/securing-block-producer-machine/README.md)
 
 ## Amazon Web Services
 
