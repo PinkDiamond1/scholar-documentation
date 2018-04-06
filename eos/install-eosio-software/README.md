@@ -1,5 +1,8 @@
 # Install EOS.IO Software
 
+- **[Click me switch to English version](README.md)**
+- **[Cliquez pour passer à la version française](README-FR.md)**
+
 For more detailed instructions, please visit [`Getting Started`](https://github.com/EOSIO/eos/wiki) from the official EOS.IO Software wiki documentation.
 
 ## Clean Install
