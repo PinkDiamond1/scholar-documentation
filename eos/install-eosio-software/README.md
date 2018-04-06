@@ -18,7 +18,7 @@ $ cd eos
 EOS Scholar Testnets must all be using the same `tag`, therefore if you've previously installed EOS.IO using another release you must update your version to use `dawn-v3.0.0` and update all submodules.
 
 ```
- git pull
+$ git pull
 $ git checkout tags/dawn-v3.0.0
 $ git submodule update --recursive
 $ ./eosio_build.sh
