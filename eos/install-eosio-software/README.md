@@ -3,9 +3,9 @@
 ## Languages
 
 - [Click me switch to English version](README.md)
-- [Cliquez pour passer à la version française](README-FR.md)
 - [点击查看中文版本](README-ZH.md)
-- [Haz clic en cambiar a la versión en inglés](README-ES.md)
+- [Haz click para ir a la versión en español](README-ES.md)
+- [Cliquez pour passer à la version française](README-FR.md)
 
 For more detailed instructions, please visit [`Getting Started`](https://github.com/EOSIO/eos/wiki) from the official EOS.IO Software wiki documentation.
 
