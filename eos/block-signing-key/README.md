@@ -1,10 +1,10 @@
-## Block Signing Key
+# Block Signing Key
 
 Scholar Testnet requests that all Block Producers generate & provide an EOS Public key (which they own the private key and is stored safely).
 
 If none is provided, an EOS key pair will be generated for you and sent via your Keybase account.
 
-**Creating EOS key pair with `cleos`***
+## Creating EOS key pair with `cleos`
 
 ```
 $ cleos create key
