@@ -13,16 +13,16 @@ A collection of multi-lingual EOS related documentation.
   - [English](eos/test-eosio-software/README.md)
 - Generate Block Siging Key
   - [English](eos/generate-block-signing-key/README.md)
-- ~Syncing Blocks~
-- ~Securing Block Producer Machine~
+- Syncing Blocks
+- Securing Block Producer Machine
 
 ## Amazon Web Services
 
 - Cloudfront with ScholarTestnet
   - [English](aws/cloudfront-with-scholar-testnet/README.md)
   - [中文](aws/cloudfront-with-scholar-testnet/README-Chinese.md)
-- ~Install AWS CLI~
+- Install AWS CLI
 
 ## LetsEncrypt
 
-- ~Configure Server with SSL using LetsEncrypt~
+- Configure Server with SSL using LetsEncrypt
