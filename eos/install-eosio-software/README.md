@@ -20,7 +20,7 @@ $ git clone git@github.com:EOSIO/eos.git --recursive
 $ cd eos
 ```
 
-### Update from Existing
+## Update from Existing
 
 EOS Scholar Testnets must all be using the same `tag`, therefore if you've previously installed EOS.IO using another release you must update your version to use `dawn-v3.0.0` and update all submodules.
 
@@ -39,10 +39,11 @@ HEAD detached at dawn-v3.0.0
 nothing to commit, working tree clean
 ```
 
-### Install EOS.IO Software
+## Install EOS.IO Software
 
 ```
 $ ./eosio_build.sh
 ```
 
 ![image](https://user-images.githubusercontent.com/550895/38167725-4c594142-3508-11e8-94a8-0cb04d4dfe55.png)
+
