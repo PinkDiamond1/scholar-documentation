@@ -6,7 +6,7 @@ A collection of multi-lingual EOS related documentation.
 
 - [Install EOS.IO Software](eos/install-eosio-software/README.md)
 - [Test EOS.IO Software](eos/test-eosio-software/README.md)
-- [Generate Block Siging Key](eos/generate-block-signing-key/README.md)
+- [Generate Block Signing Key](eos/generate-block-signing-key/README.md)
 - Syncing Blocks
 - Securing Block Producer Machine
 
