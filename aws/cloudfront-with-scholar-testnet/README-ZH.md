@@ -1,8 +1,9 @@
-# Amazon Web Services
+# 配置AWS Cloudfront和ScholarTestnet
 
-## 配置AWS Cloudfront和ScholarTestnet
+## Languages
 
-#### [Click me switch to English version](README.md)
+- [Click me switch to English version](README.md)
+- [点击查看中文版本](README-ZH.md)
 
 使用GitHub页面设置网站是发布自定义网站的最简单方法之一，而且无需支付任何网站托管费用。 您只需将`index.html`添加到您的根存储库并在设置中单击发布即可。使用GitHub页面的一个缺点是无法使用带SSL的自定义域（加密和安全的网站）。
 
