@@ -1,8 +1,8 @@
 # Install EOS.IO Software
 
-For more detailed instructions, please visit [`Getting Started`](https://github.com/EOSIO/eos/tree/DAWN-2018-03-30-ALPHA#getting-started) from the official EOS.IO Software documentation.
+For more detailed instructions, please visit [`Getting Started`](https://github.com/EOSIO/eos/wiki) from the official EOS.IO Software wiki documentation.
 
-## Clone GitHub Repo
+## Clean Install
 
 Clone the `eos` repository and run the build script.
 
@@ -13,19 +13,22 @@ $ git clone git@github.com:EOSIO/eos.git --recursive
 $ cd eos
 ```
 
-### Update `git` branch
+### Update from Existing
 
-All EOS Testnet servers must be running on the same `tag` version.
+EOS Scholar Testnets must all be using the same `tag`, therefore if you've previously installed EOS.IO using another release you must update your version to use `dawn-v3.0.0` and update all submodules.
 
 ```
-$ git checkout tags/DAWN-2018-03-30-ALPHA
+ git pull
+$ git checkout tags/dawn-v3.0.0
+$ git submodule update --recursive
+$ ./eosio_build.sh
 ```
 
 To confirm you are on the right branch/tag.
 
 ```
 $ git status
-HEAD detached at DAWN-2018-03-30-ALPHA
+HEAD detached at dawn-v3.0.0
 nothing to commit, working tree clean
 ```
 
