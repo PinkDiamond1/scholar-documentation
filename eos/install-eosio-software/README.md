@@ -47,3 +47,21 @@ $ ./eosio_build.sh
 
 ![image](https://user-images.githubusercontent.com/550895/38167725-4c594142-3508-11e8-94a8-0cb04d4dfe55.png)
 
+## Create Symbolic Links
+
+To easily use the EOS.IO software commands, you can create symbolic links which enables you to quickly execute any EOS commands.
+
+```
+$ sudo ln -s /home/ubuntu/eos/build/programs/nodeos/nodeos /usr/local/bin/nodeos
+$ sudo ln -s /home/ubuntu/eos/build/programs/cleos/cleos /usr/local/bin/cleos
+```
+
+Test to see if your EOS applications are properly linked.
+
+```
+$ nodeos --version
+3652030188
+$ cleos --help
+Command Line Interface to EOSIO Client
+Usage: cleos [OPTIONS] SUBCOMMAND
+```
