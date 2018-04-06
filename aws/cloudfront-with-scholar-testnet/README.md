@@ -1,8 +1,9 @@
-# Amazon Web Services
+# AWS Cloudfront with ScholarTestnet
 
-## AWS Cloudfront with ScholarTestnet
+## Languages
 
-[点击查看中文版本](README-Chinese.md)
+- [Click me switch to English version](README.md)
+- [点击查看中文版本](README-ZH.md)
 
 Setting up a website using GitHub pages is one of the easiest ways to publish a custom website without having to pay for any web hosting costs. You simply need to add `index.html` to your root repository and click publish in the settings. One of the downsides of using GitHub Pages is the inability of hosting a custom domain over SSL (encrypted & secure website).
 
