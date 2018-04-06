@@ -42,6 +42,8 @@ Inspect your latest MongoDB logs using `tail` and make sure there was no errors 
 
 ```
 $ tail log/mongodb/mongo.log
+...
+2018-04-06T15:25:10.808+0000 [initandlisten] waiting for connections on port 27017
 ```
 
 ## Run Tests
