@@ -18,6 +18,8 @@ Clone the `eos` repository and run the build script.
 ```
 $ git clone git@github.com:EOSIO/eos.git --recursive
 $ cd eos
+$ git checkout tags/dawn-v3.0.0
+$ ./eosio_build.sh
 ```
 
 ## Update from Existing
@@ -37,12 +39,6 @@ To confirm you are on the right branch/tag.
 $ git status
 HEAD detached at dawn-v3.0.0
 nothing to commit, working tree clean
-```
-
-## Install EOS.IO Software
-
-```
-$ ./eosio_build.sh
 ```
 
 ![image](https://user-images.githubusercontent.com/550895/38167725-4c594142-3508-11e8-94a8-0cb04d4dfe55.png)
