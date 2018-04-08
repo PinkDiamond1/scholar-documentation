@@ -61,3 +61,11 @@ $ cleos --help
 Command Line Interface to EOSIO Client
 Usage: cleos [OPTIONS] SUBCOMMAND
 ```
+
+## Troubleshooting Guide
+
+Unable to find the requested Boost libraries.
+
+[Install Boost 1.66](https://github.com/EOSIO/eos/wiki/Local-Environment#manualdepubuntu)
+
+
