@@ -66,7 +66,7 @@ Usage: cleos [OPTIONS] SUBCOMMAND
 
 Unable to find the requested Boost libraries. 
 
-Install Boost manually.
+Install Boost 1.66 manually.
 
 ```
 cd ~/opt
