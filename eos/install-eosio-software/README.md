@@ -3,9 +3,9 @@
 ## Languages
 
 - [Click me switch to English version](README.md)
-- [点击查看中文版本](README-ZH.md)
-- [Haz click para ir a la versión en español](README-ES.md)
-- [Cliquez pour passer à la version française](README-FR.md)
+- ~[点击查看中文版本](README-ZH.md)~
+- ~[Haz click para ir a la versión en español](README-ES.md)~
+- ~[Cliquez pour passer à la version française](README-FR.md)~
 
 For more detailed instructions, please visit [`Getting Started`](https://github.com/EOSIO/eos/wiki) from the official EOS.IO Software wiki documentation.
 
@@ -16,7 +16,7 @@ Clone the `eos` repository and run the build script.
 > Make sure that you use the `--recursive` parameter
 
 ```
-$ git clone git@github.com:EOSIO/eos.git --recursive
+$ git clone https://github.com/EOSIO/eos.git --recursive
 $ cd eos
 $ git checkout tags/dawn-v3.0.0
 $ ./eosio_build.sh
