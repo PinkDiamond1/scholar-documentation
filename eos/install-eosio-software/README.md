@@ -64,6 +64,20 @@ Usage: cleos [OPTIONS] SUBCOMMAND
 
 ## Troubleshooting Guide
 
-Unable to find the requested Boost libraries. [Install Boost 1.66 manually](https://github.com/EOSIO/eos/wiki/Local-Environment#manualdepubuntu)
+Unable to find the requested Boost libraries. 
+
+Install Boost manually.
+
+```
+cd ~/opt
+wget -c 'https://sourceforge.net/projects/boost/files/boost/1.66.0/boost_1_66_0.tar.bz2/download' -O boost_1.66.0.tar.bz2
+tar xjf boost_1.66.0.tar.bz2
+cd boost_1_66_0/
+echo "export BOOST_ROOT=$HOME/opt/boost_1_66_0" >> ~/.bash_profile
+source ~/.bash_profile
+./bootstrap.sh "--prefix=$BOOST_ROOT"
+./b2 install
+source ~/.bash_profile
+```
 
 
