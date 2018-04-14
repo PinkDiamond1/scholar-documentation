@@ -52,7 +52,7 @@ $ sudo ln -s /home/ubuntu/eos/build/programs/nodeos/nodeos /usr/local/bin/nodeos
 $ sudo ln -s /home/ubuntu/eos/build/programs/cleos/cleos /usr/local/bin/cleos
 ```
 
-确认快捷命令跟EOS已经正常绑定。
+确认快捷命令已经正常绑定。
 
 ```
 $ nodeos --version
