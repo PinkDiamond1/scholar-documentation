@@ -1,5 +1,12 @@
 # Test EOS.IO Software
 
+## Languages
+
+- [Click me switch to English version](README.md)
+- [点击查看中文版本](README-ZH.md)
+- ~[Haz click para ir a la versión en español](README-ES.md)~
+- ~[Cliquez pour passer à la version française](README-FR.md)~
+
 In this document we will explain to you how to verify if your installation was successful using the following steps:
 
 ## Table of Content
