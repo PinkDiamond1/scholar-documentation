@@ -1,6 +1,6 @@
 # 测试EOSIO
 
-## Languages
+## 多语言
 
 - [Click me switch to English version](README.md)
 - [点击查看中文版本](README-ZH.md)
@@ -11,9 +11,9 @@
 
 ## 目录
 
-- [配置MongoDB](#configure-mongodb)
-- [启动MongoDB](#start-mongodb)
-- [执行测试脚本](#run-tests)
+- [配置MongoDB](#配置MongoDB)
+- [启动MongoDB](#启动MongoDB)
+- [执行测试脚本](#执行测试脚本)
 
 ## 配置MongoDB
 
@@ -21,7 +21,7 @@
 
 你可以使用EOSIO提供的`mongod.conf`配置文件，当然你也可以按照下方的格式来自定义:
 
-> 如果路径不存在，你需要使用`mkdir`手动创建。
+> 如果路径不存在，你需要使用`mkdir`命令手动创建。
 
 ```
 systemLog:
@@ -36,7 +36,7 @@ net:
 
 ## 启动MongoDB
 
-运行MongoDB，或者加上`--fork`让它后台运行也可以。
+运行MongoDB，或者加上`--fork`让它在后台运行也可以。(如果提示找不到mongod的话，EOSIO安装成功的提示中有显示mongod所在的目录)
 
 ```
 $ mongod -f mongod.conf --fork
