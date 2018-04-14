@@ -3,7 +3,7 @@
 ## Languages
 
 - [Click me switch to English version](README.md)
-- ~[点击查看中文版本](README-ZH.md)~
+- [点击查看中文版本](README-ZH.md)~
 - ~[Haz click para ir a la versión en español](README-ES.md)~
 - ~[Cliquez pour passer à la version française](README-FR.md)~
 
