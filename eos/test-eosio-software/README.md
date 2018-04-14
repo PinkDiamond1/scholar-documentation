@@ -55,4 +55,5 @@ $ cd eos/build
 $ make test
 ```
 
-![image](https://user-images.githubusercontent.com/550895/38565729-0ad05d78-3cb0-11e8-92d3-adb5b32d22ef.png)
+![image](https://user-images.githubusercontent.com/550895/38762716-fe2aee62-3f5c-11e8-8570-986644c6f21a.png)
+
