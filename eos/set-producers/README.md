@@ -13,8 +13,22 @@ cleos set contract eosio \
 
 #### Step 2: Set Producers
 
+Create a `setprods.json` file using the following schema:
+
 ```
-cleos push action eosio setprods ./data/setprods.json -p eosio@active
+{
+  "version": "12345",
+  "producers": [
+    {
+      "producer_name": "eos.nation",
+      "block_signing_key": "EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz"
+    }
+  ]
+}
+```
+
+```
+cleos push action eosio setprods ./setprods.json -p eosio@active
 ```
 
 #### Step 3: Re-install core contracts
